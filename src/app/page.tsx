@@ -1,4 +1,5 @@
-import { currentUser, useUser } from "@clerk/nextjs";
+import { useUser } from "@clerk/nextjs";
+import { currentUser } from "@clerk/nextjs/server";
 import Link from "next/link";
 
 export default async function Home() {
